@@ -21,7 +21,7 @@ export function Tile(props){
       }}
       className="item"
     >
-      {props.obj}
+      
     </div>
     );
 }
