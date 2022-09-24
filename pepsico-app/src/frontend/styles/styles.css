@@ -7,7 +7,6 @@
 
 body {
   margin: 0;
-
 }
 
 .container {
@@ -21,13 +20,16 @@ body {
   color: #ffc857;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }
 
-.company-title {
+.companyTitle {
   font-size: 2rem;
+  margin: 1rem;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .nav ul {
@@ -47,6 +49,10 @@ body {
   padding: 0.25rem;
 }
 
+.nav h1 {
+  align-items: center;
+}
+
 .nav li.active {
   background-color: #71816d;
   color: white;
@@ -60,6 +66,7 @@ body {
 .siteTitle {
   color: #ffc857;
   justify-content: center;
+  align-items: center;
 }
 
 .tile {
@@ -92,6 +99,13 @@ body {
 }
 #textButton {
   margin: auto;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   display: block;
+}
+.gridSurrounding {
+  display: flex;
+  justify-content: center;
+}
+.chestah {
+  justify-content: right;
 }

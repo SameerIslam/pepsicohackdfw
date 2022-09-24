@@ -1,21 +1,17 @@
 import styles from "../styles/styles.css";
 import { signIn } from "../../../src/backend/auth.js";
-import logo from "../../pepsicologo.png"
-
+import logo from "../../img/pepsicologo.png";
 
 console.log(logo);
 
 export default function Navbar(props) {
-  
-  
-  const handleClick = (event) =>{
+  const handleClick = (event) => {
     props.func();
-  }
+  };
   return (
-    
     <nav className="nav">
       <a href="https://www.pepsico.com/">
-        <img src={logo} alt="Logo" width="200 px"/>
+        <img src={logo} alt="Logo" width="200 px" />
       </a>
       <h1 styles={styles.siteTitle}> 
         <span className="font-link">
@@ -29,9 +25,12 @@ export default function Navbar(props) {
           </span>
         </li>
         <li>
+
           <span className="font-link">
             <a onClick={handleClick}>Login/Sign Up</a>
           </span>
+
+     
         </li>
       </ul>
     </nav>

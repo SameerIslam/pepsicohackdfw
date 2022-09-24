@@ -6,56 +6,53 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
 import TextBox from "./components/textBox.js";
+import Chester from "../img/thumbs-up-chester-cheetah.png";
 
 const arrOfObj = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
 ];
 
 export function MainPage() {
+  const [board, setBoard] = useState();
+  const [boardVals, setBoardVals] = useState([]);
+  const [user, setUser] = useState();
 
-    const [board, setBoard] = useState(); 
-    const [boardVals, setBoardVals] = useState([]);
-    const [user, setUser] = useState();
+  useEffect(() => {
+    console.log(board);
+  }, [boardVals]);
+  async function getResponse() {
+    const a = await signIn();
+    await setUser(a);
+    const userBoard = await getBoard(a.userId);
+    console.log(userBoard);
+    await setBoard(userBoard);
+    await setBoardVals(userBoard.boardValues);
+  }
 
-    useEffect(()=>{
-        console.log(board);
-       
-    },[boardVals]);
-    async function getResponse(){
-        const a = await signIn();
-        await setUser(a);
-        const userBoard = await getBoard(a.userId);
-        console.log(userBoard);
-        await setBoard(userBoard);
-        await setBoardVals(userBoard.boardValues);
-    }
-    const handleClick = (event) =>{
-        getResponse();
-    }
+  async function testRandoms(nums) {
+    board.revealRandom(nums);
+    setBoard(board);
+    const a = board.boardValues;
+    setBoardVals([...a]);
+    console.log(board);
+    await updateBoard(user.userId, board);
+  }
 
-    async function testRandoms(){
-        board.revealRandom(5);
-        setBoard(board);
-        const a = board.boardValues;
-        setBoardVals([...a]);
-        console.log(board);
-        await updateBoard(user.userId, board);
-        
-    }
+  const handleClick2 = () => {
+    testRandoms();
+  };
+  return (
+    <div>
+      <Navbar func={getResponse} />
 
-    const handleClick2 = () => {
-        testRandoms();
-    }
-    return(
-        <div>
-            
-            <Navbar func={getResponse}/>
-
-            <Grid arrOfObj={boardVals}/>
-            <TextBox />
-            <button onClick={handleClick2}>test page</button>
-
+      <div className="gridSurrounding">
+        <Grid arrOfObj={boardVals} />
+        <div className="chestah">
+          <img src={Chester} alt="Chester" width="300 px" />
         </div>
-    );
+      </div>
 
+      <TextBox testRandoms={testRandoms} />
+    </div>
+  );
 }
