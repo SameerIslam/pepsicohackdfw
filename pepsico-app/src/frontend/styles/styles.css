@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.font-link {
+  font-family: 'Schoolbell', cursive;
+}
 
 body {
   margin: 0;
@@ -46,10 +49,12 @@ body {
 
 .nav li.active {
   background-color: #71816d;
+  color: white;
 }
 
 .nav li:hover {
   background-color: #535647;
+  color: white;
 }
 
 .siteTitle {

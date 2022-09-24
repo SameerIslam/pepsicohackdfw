@@ -17,13 +17,21 @@ export default function Navbar(props) {
       <a href="https://www.pepsico.com/">
         <img src={logo} alt="Logo" width="200 px"/>
       </a>
-      <h1 styles={styles.siteTitle}> Chester's Chest Quest</h1>
+      <h1 styles={styles.siteTitle}> 
+        <span className="font-link">
+         Chester's Chest Quest
+        </span>
+      </h1>
       <ul>
         <li>
-          <a href="/about">About</a>
+          <span className="font-link">
+            <a href="/about">About</a>
+          </span>
         </li>
         <li>
-        <a onClick={handleClick}>Login/Sign Up</a>
+          <span className="font-link">
+            <a onClick={handleClick}>Login/Sign Up</a>
+          </span>
         </li>
       </ul>
     </nav>
