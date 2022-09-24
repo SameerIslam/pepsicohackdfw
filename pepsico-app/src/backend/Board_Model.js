@@ -40,5 +40,6 @@ export class Board{
 }
 
 export function fromBoardMap(boardMap){
+    console.log(boardMap);
     return new Board(boardMap['boardId'], boardMap ['boardValues'],boardMap['remainingIndicies'],boardMap['dateCreated'],boardMap['resolved']);
 }

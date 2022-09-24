@@ -22,7 +22,7 @@ export async function getBoard(userId){
     const collectionRef = await collection(db,'users',userId, 'boards');
     const q = await query(collectionRef,orderBy("dateCreated"),limit(1));
     const docSnapshot = await getDocs(q);
-    return fromBoardMap(docSnapshot[0]);
+    return fromBoardMap(docSnapshot.docs[0].data());
 }
 
 export async function updateBoard(userId, boardObject){
@@ -32,20 +32,23 @@ export async function updateBoard(userId, boardObject){
 }
 
 export async function createBoard(userId){
+    console.log(userId);
     const collectionRef = await collection(db,'users',userId,'boards');
     const q = await query(collectionRef,orderBy("dateCreated"),limit(1));
     const docSnapshot = await getDocs(q);
-    if (docSnapshot.size === 0 ){
-        const board = new Board(0,emptyBoard,emptyRemaining,false);
+    //console.log(docSnapshot[0]);
+    console.dir(docSnapshot.docs[0].data);
+    if (docSnapshot.size === 0){
+        const board = new Board(0,emptyBoard,emptyRemaining);
         console.log(board.toMap());
-        const docRef = doc(collectionRef, board.boardId);
+        const docRef = await doc(collectionRef, board.boardId);
         await setDoc(docRef, board.toMap());
         return;
     }else {
-        var boardObject = fromBoardMap(docSnapshot[0]);
+        const boardObject = fromBoardMap(docSnapshot.docs[0].data());
         var date = new Date();
         if (boardObject.resolved && (date - boardObject.dateCreated)/one_day >= refreshTime){
-            const board = new Board(0,emptyBoard,emptyRemaining, false);
+            const board = new Board(0,emptyBoard,emptyRemaining);
             const docRef = doc(collectionRef, board.boardId);
             await setDoc(docRef, board.toMap());
             return;
