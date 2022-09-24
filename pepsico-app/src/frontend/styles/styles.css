@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-
 }
 
 .container {
@@ -82,7 +81,7 @@ body {
 }
 #textButton {
   margin: auto;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   display: block;
 }
 .tb {

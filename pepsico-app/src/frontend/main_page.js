@@ -12,47 +12,43 @@ const arrOfObj = [
 ];
 
 export function MainPage() {
+  const [board, setBoard] = useState();
+  const [boardVals, setBoardVals] = useState([]);
+  const [user, setUser] = useState();
 
-    const [board, setBoard] = useState(); 
-    const [boardVals, setBoardVals] = useState([]);
-    const [user, setUser] = useState();
+  useEffect(() => {
+    console.log(board);
+  }, [boardVals]);
+  async function getResponse() {
+    const a = await signIn();
+    await setUser(a);
+    const userBoard = await getBoard(a.userId);
+    console.log(userBoard);
+    await setBoard(userBoard);
+    await setBoardVals(userBoard.boardValues);
+  }
+  const handleClick = (event) => {
+    getResponse();
+  };
 
-    useEffect(()=>{
-        console.log(board);
-       
-    },[boardVals]);
-    async function getResponse(){
-        const a = await signIn();
-        await setUser(a);
-        const userBoard = await getBoard(a.userId);
-        console.log(userBoard);
-        await setBoard(userBoard);
-        await setBoardVals(userBoard.boardValues);
-    }
-    const handleClick = (event) =>{
-        getResponse();
-    }
+  async function testRandoms() {
+    board.revealRandom(5);
+    setBoard(board);
+    const a = board.boardValues;
+    setBoardVals([...a]);
+    console.log(board);
+    await updateBoard(user.userId, board);
+  }
 
-    async function testRandoms(){
-        board.revealRandom(5);
-        setBoard(board);
-        const a = board.boardValues;
-        setBoardVals([...a]);
-        console.log(board);
-        await updateBoard(user.userId, board);
-        
-    }
-
-    const handleClick2 = () => {
-        testRandoms();
-    }
-    return(
-        <div>
-            <Navbar func={getResponse}/>
-            <Grid arrOfObj={boardVals}/>
-            <TextBox />
-            <button onClick={handleClick2}>test page</button>
-        </div>
-    );
-
+  const handleClick2 = () => {
+    testRandoms();
+  };
+  return (
+    <div>
+      <Navbar func={getResponse} />
+      <Grid arrOfObj={boardVals} />
+      <TextBox />
+      <button onClick={handleClick2}>test page</button>
+    </div>
+  );
 }
