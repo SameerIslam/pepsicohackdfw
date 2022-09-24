@@ -97,3 +97,10 @@ body {
   margin-top: 0.5rem;
   display: block;
 }
+.gridSurrounding {
+  display: flex;
+  justify-content: center;
+}
+.chestah {
+  justify-content: right;
+}

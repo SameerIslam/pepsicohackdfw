@@ -1,6 +1,6 @@
 import styles from "../styles/styles.css";
 import { signIn } from "../../../src/backend/auth.js";
-import logo from "../../pepsicologo.png";
+import logo from "../../img/pepsicologo.png";
 
 console.log(logo);
 
