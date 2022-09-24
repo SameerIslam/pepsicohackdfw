@@ -61,13 +61,16 @@ body {
   color: #e5ac57;
 }
 .container1 {
+  transform: translate(0%, 15%);
+  justify-content: center;
   display: grid;
-  grid-template-columns: 5rem 5rem 5rem 5rem;
   grid-gap: 1rem;
   align-items: center;
   justify-content: center;
+  grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
+  grid-template-rows: 7rem 7rem 7rem 7rem;
+  grid-gap: 0rem;
 }
-
 #couponInput {
   margin: auto;
   margin-top: 5rem;
