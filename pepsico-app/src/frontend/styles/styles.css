@@ -53,13 +53,17 @@ body {
   align-items: center;
 }
 
+.nav li {
+  color: white;
+}
+
 .nav li.active {
-  background-color: #71816d;
+  background-color: #ffc857;
   color: white;
 }
 
 .nav li:hover {
-  background-color: #535647;
+  background-color: #ffc857;
   color: white;
 }
 
@@ -101,6 +105,7 @@ body {
   margin: auto;
   margin-top: 0.5rem;
   display: block;
+  background-color: lightcoral;
 }
 .gridSurrounding {
   display: flex;
