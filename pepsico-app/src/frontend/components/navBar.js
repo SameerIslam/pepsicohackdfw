@@ -7,7 +7,7 @@ export default function Navbar(props) {
   };
   return (
     <nav className="nav">
-      <a href="/" className="company-title">
+      <a href="https://www.pepsico.com/" className="company-title">
         Pepsico
       </a>
       <h1 styles={styles.siteTitle}> Chester's Chest Quest</h1>
