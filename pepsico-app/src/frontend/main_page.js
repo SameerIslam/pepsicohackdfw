@@ -27,12 +27,9 @@ export function MainPage() {
     await setBoard(userBoard);
     await setBoardVals(userBoard.boardValues);
   }
-  const handleClick = (event) => {
-    getResponse();
-  };
 
-  async function testRandoms() {
-    board.revealRandom(5);
+  async function testRandoms(nums) {
+    board.revealRandom(nums);
     setBoard(board);
     const a = board.boardValues;
     setBoardVals([...a]);
@@ -48,7 +45,7 @@ export function MainPage() {
       <Navbar func={getResponse} />
 
       <Grid arrOfObj={boardVals} />
-      <TextBox />
+      <TextBox testRandoms={testRandoms} />
       <button onClick={handleClick2}>test page</button>
     </div>
   );
