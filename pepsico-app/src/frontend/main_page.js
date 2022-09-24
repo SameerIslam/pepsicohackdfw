@@ -7,13 +7,7 @@ import Navbar from "./components/navBar.js";
 
 
 export function MainPage() {
-  async function getResponse() {
-    //const a = await signIn();
-  }
-
-
-export function MainPage(){
-
+  
     const [board, setBoard] = useState();
 
     async function getResponse(){
@@ -35,19 +29,14 @@ export function MainPage(){
     }
     return(
         <div>
+            <Navbar />
+            <div className="container">
+                <button onClick={handleClick}>Main page</button>
+            </div>
             <button onClick={handleClick}>Main page</button>
             <button onClick={handleClick2}>test page</button>
         </div>
     );
 }
 
-  return (
-    <>
-      <Navbar />
-      <div className="container">
-        <button onClick={handleClick}>Main page</button>
-      </div>
-    </>
-  );
-}
 
