@@ -1,6 +1,6 @@
 import { signIn } from "../backend/auth";
 import { Board } from "../backend/Board_Model";
-import { getBoard } from "../backend/crud_functions";
+import { getBoard, updateBoard } from "../backend/crud_functions";
 import { useEffect, useState } from "react";
 
 import Navbar from "./components/navBar.js";
@@ -14,6 +14,7 @@ const arrOfObj = [
 export function MainPage() {
     const [board, setBoard] = useState(); 
     const [boardVals, setBoardVals] = useState([]);
+    const [user, setUser] = useState();
 
     useEffect(()=>{
         console.log(board);
@@ -21,6 +22,7 @@ export function MainPage() {
     },[boardVals]);
     async function getResponse(){
         const a = await signIn();
+        await setUser(a);
         const userBoard = await getBoard(a.userId);
         console.log(userBoard);
         await setBoard(userBoard);
@@ -36,6 +38,8 @@ export function MainPage() {
         const a = board.boardValues;
         setBoardVals([...a]);
         console.log(board);
+        await updateBoard(user.userId, board);
+        
     }
 
     const handleClick2 = () => {

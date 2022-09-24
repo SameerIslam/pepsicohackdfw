@@ -26,7 +26,7 @@ export async function getBoard(userId){
 }
 
 export async function updateBoard(userId, boardObject){
-    const docRef = await doc(db,'users',userId, 'boards',boardObject.boardId);
+    const docRef = await doc(db,'users',userId, 'boards', boardObject.boardId);
     await setDoc(docRef, boardObject.toMap(),{merge: true});
     return boardObject;
 }
