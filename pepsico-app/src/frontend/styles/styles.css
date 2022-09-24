@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+
 }
 
 .container {
@@ -56,10 +57,26 @@ body {
   justify-content: center;
 }
 
+.tile {
+  color: #e5ac57;
+}
 .container1 {
   justify-content: center;
   display: grid;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
   grid-template-rows: 7rem 7rem 7rem 7rem;
   grid-gap: 0rem;
+}
+#couponInput {
+  margin: auto;
+  margin-top: 5rem;
+  display: block;
+  width: 300px;
+  height: 100 px;
+  border: 2px solid black;
+  font-size: 50 px;
+  background-color: lightcoral;
 }
