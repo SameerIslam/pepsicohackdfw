@@ -3,8 +3,11 @@ import styles from "../styles/styles.css";
 
 export default function TextBox() {
   return (
-    <poop>
+    <div class="tb">
         <input id = "couponInput" type = "text"></input>
-    </poop>
+        <button id = "textButton">Enter Code</button>
+    </div>
+    
+
   )
 }
