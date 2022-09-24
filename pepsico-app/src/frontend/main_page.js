@@ -5,7 +5,6 @@ export function MainPage(){
     async function getResponse(){
         const a = await signIn();
     }
-
     const handleClick = (event) =>{
         getResponse();
     }
