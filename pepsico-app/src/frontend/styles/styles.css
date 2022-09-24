@@ -9,6 +9,7 @@ body {
 .container {
   margin: 1rem;
   text-align: center;
+  vertical-align: middle;
 }
 
 .nav {

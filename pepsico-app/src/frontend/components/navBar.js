@@ -1,7 +1,17 @@
 import styles from "../styles/styles.css";
+import { signIn } from "../../../src/backend/auth.js";
+
 
 export default function Navbar() {
+  async function getResponse(){
+    const a = await signIn();
+  }
+
+  const handleClick = (event) =>{
+    getResponse();
+  }
   return (
+    
     <nav className="nav">
       <a href="/" className="company-title">
         Pepsico
@@ -12,7 +22,7 @@ export default function Navbar() {
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/Login-SignUp">Login/Sign Up</a>
+        <a onClick={handleClick}>Login</a>
         </li>
       </ul>
     </nav>
