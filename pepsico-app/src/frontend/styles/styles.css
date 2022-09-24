@@ -77,6 +77,10 @@ body {
   grid-template-rows: 7rem 7rem 7rem 7rem;
   grid-gap: 0rem;
 }
+.tb {
+  width: 30 px;
+}
+
 #couponInput {
   margin: auto;
   margin-top: 5rem;
@@ -91,7 +95,4 @@ body {
   margin: auto;
   margin-top: 0.5rem;
   display: block;
-}
-.tb {
-  width: 30 px;
 }
