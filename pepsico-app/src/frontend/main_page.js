@@ -1,7 +1,7 @@
 import { signIn } from "../backend/auth";
 import { Board } from "../backend/Board_Model";
 import { getBoard } from "../backend/crud_functions";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
@@ -12,14 +12,19 @@ const arrOfObj = [
 
 
 export function MainPage() {
-
-  
     const [board, setBoard] = useState(); 
+    const [boardVals, setBoardVals] = useState([]);
 
+    useEffect(()=>{
+        console.log(board);
+       
+    },[boardVals]);
     async function getResponse(){
         const a = await signIn();
         const userBoard = await getBoard(a.userId);
-        setBoard(userBoard);
+        console.log(userBoard);
+        await setBoard(userBoard);
+        await setBoardVals(userBoard.boardValues);
     }
     const handleClick = (event) =>{
         getResponse();
@@ -27,6 +32,9 @@ export function MainPage() {
 
     async function testRandoms(){
         board.revealRandom(5);
+        setBoard(board);
+        const a = board.boardValues;
+        setBoardVals([...a]);
         console.log(board);
     }
 
@@ -35,17 +43,8 @@ export function MainPage() {
     }
     return(
         <div>
-
-            <Navbar />
-             <Grid arrOfObj={arrOfObj} />
-            <div className="container">
-                <button onClick={handleClick}>Main page</button>
-            </div>
-            
-
-
-
-            <button onClick={handleClick}>Main page</button>
+            <Navbar func={getResponse}/>
+             <Grid arrOfObj={boardVals}/>
             <button onClick={handleClick2}>test page</button>
         </div>
     );

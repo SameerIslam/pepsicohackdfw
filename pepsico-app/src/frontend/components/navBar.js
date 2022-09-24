@@ -2,13 +2,11 @@ import styles from "../styles/styles.css";
 import { signIn } from "../../../src/backend/auth.js";
 
 
-export default function Navbar() {
-  async function getResponse(){
-    const a = await signIn();
-  }
-
+export default function Navbar(props) {
+  
+  
   const handleClick = (event) =>{
-    getResponse();
+    props.func();
   }
   return (
     
