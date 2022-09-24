@@ -70,3 +70,14 @@ export async function createBoard(userId) {
     }
   }
 }
+
+export async function validate(brandId, circId){
+    const docRef = await doc(db, 'productBrands' , brandId, 'circulation' , circId);
+    if (docRef.exists()){
+        deleteDoc(docRef);
+        const brandRef = await doc(db, 'productBrands' , brandId);
+        return brandRef.data().random_val;
+    }
+    
+}
+
