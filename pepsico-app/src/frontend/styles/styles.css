@@ -55,3 +55,10 @@ body {
   color: #ffc857;
   justify-content: center;
 }
+
+.container1 {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem 10rem;
+  grid-gap: 1rem;
+  align-items: center;
+}
