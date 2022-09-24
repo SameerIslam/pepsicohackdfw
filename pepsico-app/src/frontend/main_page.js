@@ -1,9 +1,4 @@
 import { signIn } from "../backend/auth";
-
-import Navbar from "./components/navBar";
-
-
-
 import { Board } from "../backend/Board_Model";
 import { getBoard } from "../backend/crud_functions";
 import { useState } from "react";
