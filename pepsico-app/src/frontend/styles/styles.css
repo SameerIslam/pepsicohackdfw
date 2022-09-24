@@ -81,3 +81,11 @@ body {
   font-size: 50 px;
   background-color: lightcoral;
 }
+#textButton {
+  margin: auto;
+  margin-top: .5rem;
+  display: block;
+}
+.tb {
+  width: 30 px;
+}
