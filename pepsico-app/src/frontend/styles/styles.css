@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .font-link {
-  font-family: 'Schoolbell', cursive;
+  font-family: "Schoolbell", cursive;
 }
 
 body {
@@ -25,13 +25,6 @@ body {
   padding: 0 1rem;
 }
 
-.companyTitle {
-  font-size: 2rem;
-  margin: 1rem;
-  text-align: left;
-  vertical-align: middle;
-}
-
 .nav ul {
   padding: 0;
   margin: 0;
@@ -47,10 +40,12 @@ body {
   display: flex;
   align-items: center;
   padding: 0.25rem;
+  font-size: 1.3rem;
 }
 
 .nav h1 {
   align-items: center;
+  font-size: 2rem;
 }
 
 .nav li.active {
