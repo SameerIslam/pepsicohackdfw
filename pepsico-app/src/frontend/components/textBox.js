@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../styles/styles.css";
+import validate from '../../backend/validate';
 
 export default function TextBox() {
   return (
