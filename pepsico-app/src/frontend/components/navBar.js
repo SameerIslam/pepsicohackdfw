@@ -20,7 +20,7 @@ export default function Navbar(props) {
           <a href="/about">About</a>
         </li>
         <li>
-        <a onClick={handleClick}>Login</a>
+        <a onClick={handleClick}>Login/Sign Up</a>
         </li>
       </ul>
     </nav>
