@@ -47,9 +47,11 @@ export function MainPage() {
     }
     return(
         <div>
+            
             <Navbar func={getResponse}/>
              <Grid arrOfObj={boardVals}/>
-            <button onClick={handleClick2}>test page</button>
+             <button onClick={handleClick2}>test page</button>
+            
         </div>
     );
 
