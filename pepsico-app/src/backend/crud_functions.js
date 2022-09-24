@@ -57,3 +57,17 @@ export async function createBoard(userId){
     
 }
 
+export async function validate(brandId, circId){
+    const docRef = await doc(db, 'productBrands' , brandId, 'circulation' , circId);
+    const docSnapShot = await getDoc(docRef);
+    if (docSnapShot.exists()){
+        deleteDoc(docRef);
+        const brandRef = await doc(db, 'productBrands' , brandId);
+        const brandDoc = await getDoc(brandRef);
+        return brandDoc.data().random_val;
+    }else{
+        return 0;
+    }
+    
+}
+
