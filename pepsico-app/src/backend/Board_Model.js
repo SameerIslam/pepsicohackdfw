@@ -32,5 +32,5 @@ export class Board{
 }
 
 export function fromBoardMap(boardMap){
-    return new Board(boardId, boardValues);
+    return new Board(boardMap['boardId'], boardMap ['boardValues']);
 }

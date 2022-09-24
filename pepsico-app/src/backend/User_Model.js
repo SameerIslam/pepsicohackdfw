@@ -1,10 +1,10 @@
+//import uuid from "uuid";
+
 export class User{
     constructor(name, email, userId){
-        if (userId === 0){
-            this.userId = uuid(0);
-        }else{
-            this.userId = userId;
-        }
+        
+        this.userId = userId;
+        
 
         this.name = name;
         this.email = email;
