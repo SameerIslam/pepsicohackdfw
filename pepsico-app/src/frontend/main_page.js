@@ -46,7 +46,6 @@ export function MainPage() {
 
       <Grid arrOfObj={boardVals} />
       <TextBox testRandoms={testRandoms} />
-      <button onClick={handleClick2}>test page</button>
     </div>
   );
 }
