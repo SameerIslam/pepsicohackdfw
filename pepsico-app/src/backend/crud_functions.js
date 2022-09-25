@@ -9,6 +9,7 @@ import {
   query,
   orderBy,
   limit,
+  addDoc
 } from "firebase/firestore";
 import { Board, fromBoardMap } from "./Board_Model";
 
@@ -83,5 +84,14 @@ export async function validate(brandId, circId){
         return 0;
     }
     
+}
+
+export async function addBrandProduct(productBrandMap){
+    const collectionRef = await collection(db, 'productBrands')
+    const docRef = await addDoc(collectionRef,productBrandMap);
+    const c2 = await collection(db, 'productBrands', docRef.id, 'circulation')
+    for(let i = 0; i < 6-productBrandMap['random_val']; i++){
+        addDoc(c2, {valid: "true"});
+    }
 }
 
