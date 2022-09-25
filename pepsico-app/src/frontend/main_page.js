@@ -47,18 +47,20 @@ export function MainPage() {
       <Navbar func={getResponse} />
 
       <div className="gridSurrounding">
+        <div class="card">
+          <p>and act like ion know nobody</p>
+        </div>
         <Grid arrOfObj={boardVals} />
         <div className="chestah">
           <img src={Chester} alt="Chester" width="250 px" />
         </div>
       </div>
       <div className="input">
-      <TextBox testRandoms={testRandoms} />
+        <TextBox testRandoms={testRandoms} />
       </div>
-      <div className ="footer">
+      <div className="footer">
         <img src={oasis} alt="oasis" width="100%" />
       </div>
-       
     </div>
   );
 }
