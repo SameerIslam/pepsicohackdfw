@@ -46,7 +46,8 @@ export function MainPage() {
           <p>and act like ion know nobody</p>
         </div>
 
-        <Grid arrOfObj={boardVals} />
+        {user ? <Grid arrOfObj={boardVals} /> : null}
+
         <div className="chestah">
           <img src={Chester} alt="Chester" width="250 px" />
         </div>
