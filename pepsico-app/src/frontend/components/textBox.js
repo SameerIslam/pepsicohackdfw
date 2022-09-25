@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "../styles/styles.css";
 import { useState } from 'react';
 import { validate } from '../../backend/crud_functions';
+import { async } from '@firebase/util';
 
 export default function TextBox(props) {
   const [value, setValue] = useState("");
@@ -12,12 +13,11 @@ export default function TextBox(props) {
     props.testRandoms(num);
     console.log(num);
   }
-
+  
   const handleClick = () =>{
     //var text = e.target.value;
-    
-    
     validation();
+    
   }
 
   const onChange = (e) =>{
@@ -32,6 +32,7 @@ export default function TextBox(props) {
                     Enter Code
                 </span>
             </button>
+            
         
     </div>
     
