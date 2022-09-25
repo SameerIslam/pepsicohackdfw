@@ -179,3 +179,11 @@ body {
 .under {
   text-decoration: underline black;
 }
+
+/*
+.gridBorder {
+  border-color: #db3934;
+  border-style: ridge;
+  border-width: 10px;
+}
+*/
