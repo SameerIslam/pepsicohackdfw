@@ -90,13 +90,9 @@ body {
   background-image: url(../../img/qr-code-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: center;
-<<<<<<< HEAD
   margin-left: -10rem;
-=======
-
->>>>>>> f062303ac5252ef482de49eaed4ba3bdf6838a2d
   height: fit-content;
-  z-index: 3;
+  z-index: 2;
 }
 .tb {
   width: 30 px;
@@ -143,10 +139,7 @@ body {
   margin-top: 5rem;
   justify-content: right;
   z-index: 1;
-<<<<<<< HEAD
   margin-left: -20%;
-=======
->>>>>>> f062303ac5252ef482de49eaed4ba3bdf6838a2d
 }
 .footer {
   margin-top: -17.8rem;
@@ -158,24 +151,16 @@ body {
   position: relative;
 }
 .card {
-  transform: translate(-20%, 7%);
+  transform: translate(0%, 15%);
   margin-top: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   justify-content: left;
   font-family: "Schoolbell", cursive;
   align-items: left;
-  padding: 30px 30px;
-  width: 300px;
-  border-color: #db3934;
-  border-style: ridge;
-  border-width: 10px;
+  padding: 30px 40px;
   border-radius: 20px; /* 5px rounded corners */
-  background-color: #ffc857;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.under {
-  text-decoration: underline black;
 }
