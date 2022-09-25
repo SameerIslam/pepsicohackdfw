@@ -51,7 +51,10 @@ export function MainPage() {
 
       <div className="gridSurrounding">
         <div class="card">
-            <p>and act like ion know nobody</p>
+            <p>Instructions:</p>
+            <p>Enter a valid code</p>
+            <p>Tiles get removed based of the item</p>
+            <p>Once all the tiles are removed, the coupon will be revealed</p>
         </div>
 
         {l ? <Grid arrOfObj={boardVals} load={l}/> : <Grid arrOfObj={emptyBoard} load={true}/>}
