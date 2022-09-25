@@ -1,7 +1,5 @@
 import React from "react";
-import styles from "../styles/styles.css";
 import { Tile } from "./tile";
-import chestah from "../../img/intro-1608234614.jpg";
 
 var z = {zIndex:-1};
 

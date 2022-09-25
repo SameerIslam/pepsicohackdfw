@@ -8,7 +8,7 @@ export default function TextBox(props) {
 
   async function validation() {
     const arr = value.split("-");
-    if (arr.length == 2) {
+    if (arr.length === 2) {
       const num = await validate(arr[0], arr[1]);
       props.testRandoms(num);
       console.log(num);
