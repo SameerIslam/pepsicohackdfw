@@ -48,7 +48,7 @@ export function MainPage() {
       <div className="gridSurrounding">
         <Grid arrOfObj={boardVals} />
         <div className="chestah">
-          <img src={Chester} alt="Chester" width="300 px" />
+          <img src={Chester} alt="Chester" width="250 px" />
         </div>
       </div>
 

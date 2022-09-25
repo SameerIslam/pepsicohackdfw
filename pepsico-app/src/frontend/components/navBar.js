@@ -8,9 +8,12 @@ export default function Navbar(props) {
   const handleClick = (event) => {
     props.func();
   };
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
   return (
     <nav className="nav">
-      <a href="https://www.pepsico.com/">
+      <a onClick={() => openInNewTab('https://www.pepsico.com/')}>
         <img src={logo} alt="Logo" width="200 px" />
       </a>
       <h1 styles={styles.siteTitle}> 
@@ -21,7 +24,9 @@ export default function Navbar(props) {
       <ul>
         <li>
           <span className="font-link">
-            <a href="/about">About</a>
+            <a onClick={() => openInNewTab('https://www.pepsico.com/who-we-are/about-pepsico')}>
+              About
+            </a>
           </span>
         </li>
         <li>

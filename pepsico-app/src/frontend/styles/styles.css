@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .font-link {
-  font-family: 'Schoolbell', cursive;
+  font-family: "Schoolbell", cursive;
 }
 
 body {
@@ -25,13 +25,6 @@ body {
   padding: 0 1rem;
 }
 
-.companyTitle {
-  font-size: 2rem;
-  margin: 1rem;
-  text-align: left;
-  vertical-align: middle;
-}
-
 .nav ul {
   padding: 0;
   margin: 0;
@@ -47,19 +40,25 @@ body {
   display: flex;
   align-items: center;
   padding: 0.25rem;
+  font-size: 1.3rem;
 }
 
 .nav h1 {
   align-items: center;
+  font-size: 2rem;
+}
+
+.nav li {
+  color: white;
 }
 
 .nav li.active {
-  background-color: #71816d;
+  background-color: #ffc857;
   color: white;
 }
 
 .nav li:hover {
-  background-color: #535647;
+  background-color: #ffc857;
   color: white;
 }
 
@@ -102,6 +101,7 @@ body {
   margin: auto;
   margin-top: 0.5rem;
   display: block;
+  background-color: lightcoral;
 }
 .gridSurrounding {
   display: flex;
