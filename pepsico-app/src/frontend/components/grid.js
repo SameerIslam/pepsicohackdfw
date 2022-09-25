@@ -7,7 +7,7 @@ var z = {zIndex:-1};
 
 export default function Grid(props) {
   if (props.load){
-    z = {zIndex:1};
+    z = {zIndex:2};
   }
   const cells = props.arrOfObj.map((obj) => <Tile obj={obj}></Tile>);
 

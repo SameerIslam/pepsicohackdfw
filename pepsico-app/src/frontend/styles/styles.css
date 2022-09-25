@@ -78,7 +78,7 @@ body {
   color: #e5ac57;
 }
 .container1 {
-  transform: translate(-20%, 15%);
+  transform: translate(-25%, 15%);
   justify-content: center;
   display: grid;
   grid-gap: 1rem;
@@ -90,10 +90,9 @@ body {
   background-image: url(../../img/qr-code-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: center;
-  
+  margin-left: -10rem;
   height: fit-content;
-  z-index: 2;
-  margin-left: 10rem;
+  z-index: 3;
 }
 .tb {
   width: 30 px;
@@ -132,15 +131,15 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-
+  margin-left: 10rem;
   height: 450px;
-  z-index: 2;
+  z-index: 1;
 }
 .chestah {
-  margin-top: -0.7rem;
+  margin-top: 5rem;
   justify-content: right;
   z-index: 1;
-
+  margin-left: -20%;
 }
 .footer {
   margin-top: -17.8rem;

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
 import TextBox from "./components/textBox.js";
-import Chester from "../img/thumbs-up-chester-cheetah.png";
+import Chester from "../img/chester.png";
 import oasis from "../img/oasispano.png";
 
 const emptyBoard = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -52,15 +52,15 @@ export function MainPage() {
       <div className="gridSurrounding">
         <div class="card">
             <p>Instructions:</p>
-            <p>Enter a valid code</p>
-            <p>Tiles get removed based of the item</p>
+            <p>Enter the SECRET code</p>
+            <p>If the code is right, slowly uncover the SECRET</p>
             <p>Once all the tiles are removed, the coupon will be revealed</p>
         </div>
 
         {l ? <Grid arrOfObj={boardVals} load={l}/> : <Grid arrOfObj={emptyBoard} load={true}/>}
 
         <div className="chestah">
-          <img src={Chester} alt="Chester" width="250 px" />
+          <img src={Chester} alt="Chester" width="500 px" />
         </div>
       </div>
       <div className="input">
