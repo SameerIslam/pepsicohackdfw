@@ -8,10 +8,13 @@ import TextBox from "./components/textBox.js";
 import Chester from "../img/thumbs-up-chester-cheetah.png";
 import oasis from "../img/oasispano.png";
 
+const emptyBoard = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 export function MainPage() {
   const [board, setBoard] = useState();
   const [boardVals, setBoardVals] = useState([]);
   const [user, setUser] = useState();
+  const [l, setL] = useState(false);
 
   useEffect(() => {
     console.log(board);
@@ -23,7 +26,14 @@ export function MainPage() {
     console.log(userBoard);
     await setBoard(userBoard);
     await setBoardVals(userBoard.boardValues);
+    loader();
     return a;
+  }
+
+  async function loader(){
+    setTimeout(()=>{
+        setL(true)
+    },500);
   }
 
   async function testRandoms(nums) {
@@ -44,7 +54,7 @@ export function MainPage() {
             <p>and act like ion know nobody</p>
         </div>
 
-        {user ? <Grid arrOfObj={boardVals} /> : null}
+        {l ? <Grid arrOfObj={boardVals} load={l}/> : <Grid arrOfObj={emptyBoard} load={true}/>}
 
         <div className="chestah">
           <img src={Chester} alt="Chester" width="250 px" />
