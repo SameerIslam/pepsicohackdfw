@@ -102,7 +102,7 @@ body {
   height: 50px;
   border: 2px solid #ffc857;
   font-size: 35px;
-  background-color: lightcoral;
+  background-color: #db393480;
   outline-color: #ffc857;
   font-family: "Schoolbell", cursive;
 }
@@ -111,7 +111,7 @@ body {
   margin-top: 0.5rem;
   display: block;
   height: 30px;
-  background-color: lightcoral;
+  background-color: #db3934;
   border: 0px;
 }
 .gridSurrounding {
@@ -129,7 +129,7 @@ body {
   margin-right: -15rem;
 }
 .footer {
-  margin-top: -19.8rem;
+  margin-top: -17.8rem;
   z-index: 0;
   position: relative;
 }
