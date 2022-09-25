@@ -8,12 +8,10 @@ import TextBox from "./components/textBox.js";
 import Chester from "../img/thumbs-up-chester-cheetah.png";
 import oasis from "../img/oasispano.png";
 
-
 export function MainPage() {
   const [board, setBoard] = useState();
   const [boardVals, setBoardVals] = useState([]);
   const [user, setUser] = useState();
-
 
   useEffect(() => {
     console.log(board);
@@ -39,7 +37,7 @@ export function MainPage() {
 
   return (
     <div>
-      <Navbar func={getResponse}/>
+      <Navbar func={getResponse} />
 
       <div className="gridSurrounding">
         <div class="card">

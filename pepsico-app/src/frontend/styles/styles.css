@@ -28,6 +28,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav ul {
@@ -106,7 +107,7 @@ body {
   outline-color: #ffc857;
   font-family: "Schoolbell", cursive;
 }
-#error{
+#error {
   margin: auto;
   display: block;
   align-content: center;
