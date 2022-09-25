@@ -30,10 +30,10 @@ export function MainPage() {
     return a;
   }
 
-  async function loader(){
-    setTimeout(()=>{
-        setL(true)
-    },500);
+  async function loader() {
+    setTimeout(() => {
+      setL(true);
+    }, 500);
   }
 
   async function testRandoms(nums) {
@@ -51,13 +51,19 @@ export function MainPage() {
 
       <div className="gridSurrounding">
         <div class="card">
-            <p>Instructions:</p>
-            <p>Enter a valid code</p>
-            <p>Tiles get removed based of the item</p>
-            <p>Once all the tiles are removed, the coupon will be revealed</p>
+          <h2 class="under"> Instructions:</h2>
+          <h3>1. Enter a valid code.</h3>
+          <h3>2. Tiles will be removed based on the product's unique code.</h3>
+          <h3>
+            3. Once all of the tiles are removed, the coupon will be revealed.
+          </h3>
         </div>
 
-        {l ? <Grid arrOfObj={boardVals} load={l}/> : <Grid arrOfObj={emptyBoard} load={true}/>}
+        {l ? (
+          <Grid arrOfObj={boardVals} load={l} />
+        ) : (
+          <Grid arrOfObj={emptyBoard} load={true} />
+        )}
 
         <div className="chestah">
           <img src={Chester} alt="Chester" width="250 px" />

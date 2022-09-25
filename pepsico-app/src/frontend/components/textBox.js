@@ -8,21 +8,20 @@ export default function TextBox(props) {
 
   async function validation() {
     const arr = value.split("-");
-    if (arr.length == 2){
+    if (arr.length == 2) {
       const num = await validate(arr[0], arr[1]);
       props.testRandoms(num);
       console.log(num);
-      if (num === 0){
+      if (num === 0) {
         console.log("validation error");
-        setErr("ERROR");
-      }else{
+        setErr("INVALID CODE");
+      } else {
         setErr("");
       }
-    }else{
+    } else {
       console.log("validation error");
-      setErr("ERROR");
+      setErr("INVALID CODE");
     }
-    
   }
 
   const handleClick = () => {
@@ -36,7 +35,6 @@ export default function TextBox(props) {
   };
   return (
     <div class="tb">
-
       <input
         id="couponInput"
         type="text"
@@ -44,11 +42,10 @@ export default function TextBox(props) {
         onChange={onChange}
         value={value}
       ></input>
-       <label id="error">{err}</label>
+      <label id="error">{err}</label>
       <button id="textButton" onClick={handleClick}>
         <span className="font-link">Submit Code</span>
       </button>
-
     </div>
   );
 }
