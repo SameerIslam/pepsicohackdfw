@@ -7,16 +7,14 @@ import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
 import TextBox from "./components/textBox.js";
 import Chester from "../img/thumbs-up-chester-cheetah.png";
-import oasis from "/Users/aarianahsan/Desktop/College/Other-Coding-Projects/ChestersChestQuest/pepsicohackdfw/pepsico-app/src/img/oasispano.png";
+import oasis from "../img/oasispano.png";
 
-const arrOfObj = [
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-];
 
 export function MainPage() {
   const [board, setBoard] = useState();
   const [boardVals, setBoardVals] = useState([]);
   const [user, setUser] = useState();
+  const [name, setName] = useState("Login/Sign Up");
 
   useEffect(() => {
     console.log(board);
@@ -28,6 +26,7 @@ export function MainPage() {
     console.log(userBoard);
     await setBoard(userBoard);
     await setBoardVals(userBoard.boardValues);
+    return a;
   }
 
   async function testRandoms(nums) {
@@ -44,7 +43,7 @@ export function MainPage() {
   };
   return (
     <div>
-      <Navbar func={getResponse} />
+      <Navbar func={getResponse} loginText={name}/>
 
       <div className="gridSurrounding">
         <Grid arrOfObj={boardVals} />

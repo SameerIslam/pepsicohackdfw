@@ -1,16 +1,26 @@
 import styles from "../styles/styles.css";
 import { signIn } from "../../../src/backend/auth.js";
 import logo from "../../img/pepsicologo.png";
+import { useState } from 'react';
+import { User } from "../../backend/User_Model";
+
+
 
 console.log(logo);
 
+
 export default function Navbar(props) {
-  const handleClick = (event) => {
-    props.func();
+  const [name, setName] = useState("Login/Sign Up")
+  const handleClick = () => {
+    getName();
   };
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
+  async function getName(){
+    const u = await props.func();
+    setName(u.name);
+  }
   return (
     <nav className="nav">
       <a onClick={() => openInNewTab('https://www.pepsico.com/')}>
@@ -32,7 +42,7 @@ export default function Navbar(props) {
         <li>
 
           <span className="font-link">
-            <a onClick={handleClick}>Login/Sign Up</a>
+            <a onClick={handleClick}>{name}</a>
           </span>
 
      
