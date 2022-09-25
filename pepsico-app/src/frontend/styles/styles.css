@@ -78,7 +78,7 @@ body {
   color: #e5ac57;
 }
 .container1 {
-  transform: translate(-20%, 15%);
+  transform: translate(-3%, 15%);
   justify-content: center;
   display: grid;
   grid-gap: 1rem;
@@ -137,9 +137,10 @@ body {
   z-index: 2;
 }
 .chestah {
-  margin-top: -0.7rem;
+  margin-top: 5.5rem;
   justify-content: right;
   z-index: 1;
+  margin-left: -10rem;
 }
 .footer {
   margin-top: -17.8rem;
@@ -151,7 +152,7 @@ body {
   position: relative;
 }
 .card {
-  transform: translate(-20%, 7%);
+  transform: translate(15%, 7%);
   margin-top: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
