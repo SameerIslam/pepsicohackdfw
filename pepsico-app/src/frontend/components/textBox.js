@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 import styles from "../styles/styles.css";
-import { useState } from 'react';
-import { validate } from '../../backend/crud_functions';
+import { useState } from "react";
+import { validate } from "../../backend/crud_functions";
+import { async } from "@firebase/util";
 
 export default function TextBox(props) {
   const [value, setValue] = useState("");
   const [err, setErr] = useState("");
 
-  async function validation(){
+  async function validation() {
     const arr = value.split("-");
     if (arr.length == 2){
       const num = await validate(arr[0], arr[1]);
@@ -26,29 +27,30 @@ export default function TextBox(props) {
     
   }
 
-  const handleClick = () =>{
+  const handleClick = () => {
     //var text = e.target.value;
-    
-    
-    validation();
-  }
 
-  const onChange = (e) =>{
+    validation();
+  };
+
+  const onChange = (e) => {
     setValue(e.target.value);
-  }
+  };
   return (
     <div class="tb">
-            
-            <input id = "couponInput" type = "text" placeholder='Enter Code Here' onChange={onChange} value={value}></input>
-            <label id="error">{err}</label>
-            <button id = "textButton" onClick={handleClick}>
-                <span className="font-link">
-                    Enter Code
-                </span>
-            </button>
-        
-    </div>
-    
 
-  )
+      <input
+        id="couponInput"
+        type="text"
+        placeholder="Enter Code Here"
+        onChange={onChange}
+        value={value}
+      ></input>
+       <label id="error">{err}</label>
+      <button id="textButton" onClick={handleClick}>
+        <span className="font-link">Submit Code</span>
+      </button>
+
+    </div>
+  );
 }

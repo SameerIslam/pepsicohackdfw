@@ -1,5 +1,4 @@
 import { signIn } from "../backend/auth";
-import { Board } from "../backend/Board_Model";
 import { getBoard, updateBoard } from "../backend/crud_functions";
 import { useEffect, useState } from "react";
 
@@ -18,7 +17,7 @@ export function MainPage() {
 
   useEffect(() => {
     console.log(board);
-  }, [boardVals]);
+  });
   async function getResponse() {
     const a = await signIn();
     await setUser(a);
@@ -38,9 +37,6 @@ export function MainPage() {
     await updateBoard(user.userId, board);
   }
 
-  const handleClick2 = () => {
-    testRandoms();
-  };
   return (
     <div>
       <Navbar func={getResponse}/>
@@ -49,6 +45,7 @@ export function MainPage() {
         <div class="card">
           <p>and act like ion know nobody</p>
         </div>
+
         <Grid arrOfObj={boardVals} />
         <div className="chestah">
           <img src={Chester} alt="Chester" width="250 px" />

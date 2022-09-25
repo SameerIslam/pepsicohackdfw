@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image: url("../../img/oasis.jpeg");
+  background-image: url("../../img/oasispano.png");
 }
 
 .font-link {
@@ -88,7 +88,7 @@ body {
   grid-gap: 0rem;
   background-image: url(../../img/intro-1608234614.jpg);
   height: fit-content;
-  z-index: 1;
+  z-index: 2;
 }
 .tb {
   width: 30 px;
@@ -128,13 +128,13 @@ body {
   justify-content: center;
 
   height: 450px;
-  z-index: 1;
+  z-index: 2;
 }
 .chestah {
   margin-top: -0.7rem;
   justify-content: right;
   z-index: 1;
-  margin-right: -15rem;
+  margin-right: -3rem;
 }
 .footer {
   margin-top: -17.8rem;
@@ -142,11 +142,12 @@ body {
   position: relative;
 }
 .input {
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
 .card {
   margin-top: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  justify-content: left;
 }
