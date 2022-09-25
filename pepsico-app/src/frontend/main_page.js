@@ -52,8 +52,10 @@ export function MainPage() {
           <img src={Chester} alt="Chester" width="250 px" />
         </div>
       </div>
+      <div className="input">
+      <TextBox testRandoms={testRandoms} />
+      </div>
       <div className ="footer">
-        <TextBox testRandoms={testRandoms} />
         <img src={oasis} alt="oasis" width="100%" />
       </div>
        
