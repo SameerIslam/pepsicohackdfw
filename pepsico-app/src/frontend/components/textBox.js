@@ -26,9 +26,7 @@ export default function TextBox(props) {
   return (
     <div class="tb">
         
-            <input id = "couponInput" type = "text" onChange={onChange} value={value}>
-                
-            </input>
+            <input id = "couponInput" type = "text" placeholder='Enter Code Here' onChange={onChange} value={value}></input>
             <button id = "textButton" onClick={handleClick}>
                 <span className="font-link">
                     Enter Code
