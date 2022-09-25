@@ -19,7 +19,7 @@ export default function Navbar(props) {
   return (
     <nav className="nav">
       <a onClick={() => openInNewTab("https://www.pepsico.com/")}>
-        <img src={logo} alt="Logo" width="200 px" />
+        <img src={logo} alt="Logo" width="175 px" />
       </a>
       <h1 styles={styles.siteTitle}>
         <span className="font-link">Chester's Chest Quest</span>
