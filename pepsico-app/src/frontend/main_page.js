@@ -7,6 +7,7 @@ import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
 import TextBox from "./components/textBox.js";
 import Chester from "../img/thumbs-up-chester-cheetah.png";
+import oasis from "/Users/aarianahsan/Desktop/College/Other-Coding-Projects/ChestersChestQuest/pepsicohackdfw/pepsico-app/src/img/oasispano.png";
 
 const arrOfObj = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
@@ -51,8 +52,13 @@ export function MainPage() {
           <img src={Chester} alt="Chester" width="250 px" />
         </div>
       </div>
-
+      <div className="input">
       <TextBox testRandoms={testRandoms} />
+      </div>
+      <div className ="footer">
+        <img src={oasis} alt="oasis" width="100%" />
+      </div>
+       
     </div>
   );
 }

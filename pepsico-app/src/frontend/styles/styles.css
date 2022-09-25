@@ -87,6 +87,8 @@ body {
   grid-template-rows: 7rem 7rem 7rem 7rem;
   grid-gap: 0rem;
   background-image: url(../../img/intro-1608234614.jpg);
+  height: fit-content;
+  z-index: 1;
 }
 .tb {
   width: 30 px;
@@ -94,7 +96,7 @@ body {
 
 #couponInput {
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 7rem;
   display: block;
   width: 300px;
   height: 50px;
@@ -113,9 +115,24 @@ body {
   border: 0px;
 }
 .gridSurrounding {
+  margin: auto;
   display: flex;
   justify-content: center;
+
+  height: 450px;
+  z-index: 1;
 }
 .chestah {
+  margin-top: -0.5rem;
   justify-content: right;
+  z-index: 1;
+}
+.footer {
+  margin-top: -15rem;
+  z-index: 0;
+  position: relative;
+}
+.input {
+  z-index: 1;
+  position: relative;
 }
