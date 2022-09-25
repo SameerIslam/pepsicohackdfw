@@ -106,6 +106,14 @@ body {
   outline-color: #ffc857;
   font-family: "Schoolbell", cursive;
 }
+#error{
+  margin: auto;
+  display: block;
+  align-content: center;
+  width: fit-content;
+  height: fit-content;
+  color: #db3934;
+}
 #textButton {
   margin: auto;
   margin-top: 0.5rem;

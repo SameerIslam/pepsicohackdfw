@@ -14,7 +14,7 @@ export function MainPage() {
   const [board, setBoard] = useState();
   const [boardVals, setBoardVals] = useState([]);
   const [user, setUser] = useState();
-  const [name, setName] = useState("Login/Sign Up");
+
 
   useEffect(() => {
     console.log(board);
@@ -43,7 +43,7 @@ export function MainPage() {
   };
   return (
     <div>
-      <Navbar func={getResponse} loginText={name}/>
+      <Navbar func={getResponse}/>
 
       <div className="gridSurrounding">
         <div class="card">
