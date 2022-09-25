@@ -1,0 +1,1112 @@
+[
+  {
+    "name": "BAKEN-ETS",
+    "size_code": 9,
+    "random_val": 2
+  },
+  {
+    "name": "BAKEN-ETS",
+    "size_code": 17,
+    "random_val": 4
+  },
+  {
+    "name": "BAKEN-ETS",
+    "size_code": 24,
+    "random_val": 4
+  },
+  {
+    "name": "BAKEN-ETS",
+    "size_code": 30,
+    "random_val": 5
+  },
+  {
+    "name": "BAKEN-ETS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "BARE SNACKS",
+    "size_code": 16,
+    "random_val": 4
+  },
+  {
+    "name": "BARE SNACKS",
+    "size_code": 44,
+    "random_val": 1
+  },
+  {
+    "name": "BARE SNACKS",
+    "size_code": 60,
+    "random_val": 5
+  },
+  {
+    "name": "BARE SNACKS",
+    "size_code": 71,
+    "random_val": 5
+  },
+  {
+    "name": "BARE SNACKS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "BEYOND JERKY",
+    "size_code": 28,
+    "random_val": 2
+  },
+  {
+    "name": "BEYOND JERKY",
+    "size_code": 36,
+    "random_val": 3
+  },
+  {
+    "name": "BEYOND JERKY",
+    "size_code": 69,
+    "random_val": 5
+  },
+  {
+    "name": "BEYOND JERKY",
+    "size_code": 73,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 3,
+    "random_val": 2
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 4,
+    "random_val": 3
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 8,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 27,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 39,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 66,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 71,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "CHEETOS",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 3,
+    "random_val": 3
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 9,
+    "random_val": 2
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "CHESTERS",
+    "size_code": 79,
+    "random_val": 5
+  },
+  {
+    "name": "CRACKER JACK",
+    "size_code": 3,
+    "random_val": 4
+  },
+  {
+    "name": "CRACKER JACK",
+    "size_code": 45,
+    "random_val": 1
+  },
+  {
+    "name": "CRACKERS",
+    "size_code": 18,
+    "random_val": 1
+  },
+  {
+    "name": "CRACKERS",
+    "size_code": 78,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 3,
+    "random_val": 2
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 4,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 5,
+    "random_val": 3
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 8,
+    "random_val": 4
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 27,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 39,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 74,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 77,
+    "random_val": 5
+  },
+  {
+    "name": "DORITOS",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 3,
+    "random_val": 3
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 4,
+    "random_val": 3
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 5,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 8,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 11,
+    "random_val": 4
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 13,
+    "random_val": 4
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "FRITOS",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 3,
+    "random_val": 1
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 4,
+    "random_val": 4
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 30,
+    "random_val": 5
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 39,
+    "random_val": 5
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "FUNYUNS",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 22,
+    "random_val": 1
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 25,
+    "random_val": 4
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 31,
+    "random_val": 5
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 33,
+    "random_val": 5
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 35,
+    "random_val": 5
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 37,
+    "random_val": 5
+  },
+  {
+    "name": "GAMESA",
+    "size_code": 53,
+    "random_val": 5
+  },
+  {
+    "name": "GOLDEN GRAIN",
+    "size_code": 21,
+    "random_val": 1
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 12,
+    "random_val": 2
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 20,
+    "random_val": 3
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 30,
+    "random_val": 5
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 38,
+    "random_val": 5
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 67,
+    "random_val": 5
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 68,
+    "random_val": 5
+  },
+  {
+    "name": "GRANDMA'S COOKIES",
+    "size_code": 73,
+    "random_val": 5
+  },
+  {
+    "name": "HISPANIC",
+    "size_code": 3,
+    "random_val": 3
+  },
+  {
+    "name": "HISPANIC",
+    "size_code": 9,
+    "random_val": 2
+  },
+  {
+    "name": "HISPANIC",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 3,
+    "random_val": 3
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 4,
+    "random_val": 3
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 5,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 8,
+    "random_val": 4
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 11,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 14,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 21,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 39,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 47,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 64,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 66,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 74,
+    "random_val": 5
+  },
+  {
+    "name": "LAY'S",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 28,
+    "random_val": 5
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 31,
+    "random_val": 1
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 32,
+    "random_val": 5
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 58,
+    "random_val": 5
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 68,
+    "random_val": 5
+  },
+  {
+    "name": "MATADOR    (MEATS)",
+    "size_code": 73,
+    "random_val": 5
+  },
+  {
+    "name": "MISS VICKIES",
+    "size_code": 4,
+    "random_val": 1
+  },
+  {
+    "name": "MISS VICKIES",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "MIXED",
+    "size_code": 8,
+    "random_val": 2
+  },
+  {
+    "name": "MIXED",
+    "size_code": 43,
+    "random_val": 4
+  },
+  {
+    "name": "MIXED",
+    "size_code": 56,
+    "random_val": 5
+  },
+  {
+    "name": "MIXED",
+    "size_code": 71,
+    "random_val": 3
+  },
+  {
+    "name": "MIXED",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "MIXED",
+    "size_code": 73,
+    "random_val": 5
+  },
+  {
+    "name": "MUNCHIES",
+    "size_code": 3,
+    "random_val": 3
+  },
+  {
+    "name": "MUNCHIES",
+    "size_code": 4,
+    "random_val": 2
+  },
+  {
+    "name": "MUNCHIES",
+    "size_code": 8,
+    "random_val": 5
+  },
+  {
+    "name": "MUNCHIES",
+    "size_code": 32,
+    "random_val": 5
+  },
+  {
+    "name": "MUNCHIES",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "MUNCHOS",
+    "size_code": 9,
+    "random_val": 3
+  },
+  {
+    "name": "MUNCHOS",
+    "size_code": 17,
+    "random_val": 2
+  },
+  {
+    "name": "NUT HARVEST",
+    "size_code": 34,
+    "random_val": 2
+  },
+  {
+    "name": "NUT HARVEST",
+    "size_code": 68,
+    "random_val": 3
+  },
+  {
+    "name": "NUT HARVEST",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "NUTS & SEEDS",
+    "size_code": 10,
+    "random_val": 2
+  },
+  {
+    "name": "NUTS & SEEDS",
+    "size_code": 15,
+    "random_val": 3
+  },
+  {
+    "name": "NUTS & SEEDS",
+    "size_code": 19,
+    "random_val": 4
+  },
+  {
+    "name": "NUTS & SEEDS",
+    "size_code": 29,
+    "random_val": 5
+  },
+  {
+    "name": "NUTS & SEEDS",
+    "size_code": 68,
+    "random_val": 5
+  },
+  {
+    "name": "OFF THE EATEN PATH",
+    "size_code": 4,
+    "random_val": 4
+  },
+  {
+    "name": "OFF THE EATEN PATH",
+    "size_code": 64,
+    "random_val": 1
+  },
+  {
+    "name": "OFF THE EATEN PATH",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "PLANTAINS",
+    "size_code": 3,
+    "random_val": 1
+  },
+  {
+    "name": "PLANTAINS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 4,
+    "random_val": 3
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 8,
+    "random_val": 5
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 16,
+    "random_val": 2
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 30,
+    "random_val": 5
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 71,
+    "random_val": 5
+  },
+  {
+    "name": "POPCORNERS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "QUAKER",
+    "size_code": 21,
+    "random_val": 4
+  },
+  {
+    "name": "QUAKER",
+    "size_code": 48,
+    "random_val": 1
+  },
+  {
+    "name": "QUAKER",
+    "size_code": 49,
+    "random_val": 4
+  },
+  {
+    "name": "QUAKER",
+    "size_code": 52,
+    "random_val": 5
+  },
+  {
+    "name": "QUAKER BARS",
+    "size_code": 48,
+    "random_val": 1
+  },
+  {
+    "name": "QUAKER OATMEAL",
+    "size_code": 21,
+    "random_val": 1
+  },
+  {
+    "name": "ROLD GOLD",
+    "size_code": 4,
+    "random_val": 2
+  },
+  {
+    "name": "ROLD GOLD",
+    "size_code": 17,
+    "random_val": 3
+  },
+  {
+    "name": "ROLD GOLD",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "ROLD GOLD",
+    "size_code": 75,
+    "random_val": 5
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 3,
+    "random_val": 2
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 4,
+    "random_val": 4
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 5,
+    "random_val": 3
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 8,
+    "random_val": 4
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "RUFFLES",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "SABRITAS",
+    "size_code": 25,
+    "random_val": 1
+  },
+  {
+    "name": "SANTITAS",
+    "size_code": 26,
+    "random_val": 1
+  },
+  {
+    "name": "SANTITAS",
+    "size_code": 50,
+    "random_val": 5
+  },
+  {
+    "name": "SIMPLY NATURAL",
+    "size_code": 3,
+    "random_val": 4
+  },
+  {
+    "name": "SIMPLY NATURAL",
+    "size_code": 40,
+    "random_val": 5
+  },
+  {
+    "name": "SIMPLY NATURAL",
+    "size_code": 43,
+    "random_val": 2
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 2,
+    "random_val": 5
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 3,
+    "random_val": 2
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 4,
+    "random_val": 3
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 8,
+    "random_val": 5
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 30,
+    "random_val": 4
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 39,
+    "random_val": 5
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 63,
+    "random_val": 5
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 72,
+    "random_val": 5
+  },
+  {
+    "name": "SMART FOODS",
+    "size_code": 80,
+    "random_val": 5
+  },
+  {
+    "name": "SPITZ SUNFLOWER SEED",
+    "size_code": 22,
+    "random_val": 4
+  },
+  {
+    "name": "SPITZ SUNFLOWER SEED",
+    "size_code": 57,
+    "random_val": 3
+  },
+  {
+    "name": "SPITZ SUNFLOWER SEED",
+    "size_code": 59,
+    "random_val": 2
+  },
+  {
+    "name": "STACY'S PITA CHIPS",
+    "size_code": 67,
+    "random_val": 1
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 3,
+    "random_val": 4
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 4,
+    "random_val": 1
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 45,
+    "random_val": 5
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 62,
+    "random_val": 5
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 66,
+    "random_val": 5
+  },
+  {
+    "name": "SUNCHIPS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 3,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 4,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 5,
+    "random_val": 3
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 8,
+    "random_val": 4
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 14,
+    "random_val": 4
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 21,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 23,
+    "random_val": 4
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 46,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 47,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 70,
+    "random_val": 5
+  },
+  {
+    "name": "TOSTITOS",
+    "size_code": 74,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 8,
+    "random_val": 2
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 39,
+    "random_val": 4
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 40,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 41,
+    "random_val": 4
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 42,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 43,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 54,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 55,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 61,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 62,
+    "random_val": 5
+  },
+  {
+    "name": "VARIETY PACK",
+    "size_code": 74,
+    "random_val": 5
+  }
+]

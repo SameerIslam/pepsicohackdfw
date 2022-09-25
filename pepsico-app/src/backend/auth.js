@@ -1,6 +1,7 @@
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { addUser } from "./crud_functions";
 import {auth, provider} from "./firebase_config";
+import { loadData } from "./testing";
 import { User } from "./User_Model";
 
 
@@ -12,6 +13,7 @@ export async function signIn(){
     var newUser = new User(user['displayName'],user['email'],user['uid']);
     console.log(newUser);
     const u = await  addUser(newUser);
+    //loadData();
     return u;
     // .then((result) => {
     //   // This gives you a Google Access Token. You can use it to access the Google API.
