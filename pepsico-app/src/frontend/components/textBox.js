@@ -1,8 +1,6 @@
 import React from "react";
-import styles from "../styles/styles.css";
 import { useState } from "react";
 import { validate } from "../../backend/crud_functions";
-import { async } from "@firebase/util";
 
 export default function TextBox(props) {
   const [value, setValue] = useState("");
