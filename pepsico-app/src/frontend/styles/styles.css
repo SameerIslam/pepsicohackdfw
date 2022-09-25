@@ -78,7 +78,7 @@ body {
   color: #e5ac57;
 }
 .container1 {
-  transform: translate(-25%, 15%);
+  transform: translate(-20%, 15%);
   justify-content: center;
   display: grid;
   grid-gap: 1rem;
@@ -90,9 +90,10 @@ body {
   background-image: url(../../img/qr-code-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: -10rem;
+
   height: fit-content;
   z-index: 2;
+  margin-left: 10rem;
 }
 .tb {
   width: 30 px;
@@ -131,15 +132,14 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-  margin-left: 10rem;
+
   height: 450px;
-  z-index: 1;
+  z-index: 2;
 }
 .chestah {
-  margin-top: 5rem;
+  margin-top: -0.7rem;
   justify-content: right;
   z-index: 1;
-  margin-left: -20%;
 }
 .footer {
   margin-top: -17.8rem;
@@ -151,16 +151,24 @@ body {
   position: relative;
 }
 .card {
-  transform: translate(0%, 15%);
+  transform: translate(-20%, 7%);
   margin-top: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   justify-content: left;
   font-family: "Schoolbell", cursive;
   align-items: left;
-  padding: 30px 40px;
+  padding: 30px 30px;
+  width: 300px;
+  border-color: #db3934;
+  border-style: ridge;
+  border-width: 10px;
   border-radius: 20px; /* 5px rounded corners */
+  background-color: #ffc857;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.under {
+  text-decoration: underline black;
 }
