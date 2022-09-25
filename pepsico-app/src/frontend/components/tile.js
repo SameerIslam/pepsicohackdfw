@@ -17,6 +17,7 @@ export function Tile(props){
         height: "115px",
         backgroundColor: `#FFC857`,
         border: "5px solid #544A26",
+        borderStyle: "ridge",
         ...inputStyle
       }}
       className="item"

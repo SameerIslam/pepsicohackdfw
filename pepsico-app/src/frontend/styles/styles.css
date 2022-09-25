@@ -132,6 +132,7 @@ body {
   background-color: #db3934;
   border: 0px;
   color: #ffc857;
+  border-radius: 5px;
 }
 .gridSurrounding {
   margin: auto;

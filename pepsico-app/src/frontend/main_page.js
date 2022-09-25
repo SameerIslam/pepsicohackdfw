@@ -1,7 +1,6 @@
 import { signIn } from "../backend/auth";
 import { getBoard, updateBoard } from "../backend/crud_functions";
 import { useEffect, useState } from "react";
-
 import Navbar from "./components/navBar.js";
 import Grid from "./components/grid.js";
 import TextBox from "./components/textBox.js";
@@ -58,7 +57,7 @@ export function MainPage() {
             3. Once all of the tiles are removed, the coupon will be revealed.
           </h3>
         </div>
-
+    
         {l ? (
           <Grid arrOfObj={boardVals} load={l} />
         ) : (
