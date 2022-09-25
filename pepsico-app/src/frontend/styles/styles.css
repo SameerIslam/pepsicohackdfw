@@ -78,7 +78,7 @@ body {
   color: #e5ac57;
 }
 .container1 {
-  transform: translate(0%, 15%);
+  transform: translate(-20%, 15%);
   justify-content: center;
   display: grid;
   grid-gap: 1rem;
@@ -87,9 +87,13 @@ body {
   grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
   grid-template-rows: 7rem 7rem 7rem 7rem;
   grid-gap: 0rem;
-  background-image: url(../../img/intro-1608234614.jpg);
+  background-image: url(../../img/qr-code-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
   height: fit-content;
   z-index: 2;
+  margin-left: 10rem;
 }
 .tb {
   width: 30 px;
@@ -136,7 +140,7 @@ body {
   margin-top: -0.7rem;
   justify-content: right;
   z-index: 1;
-  margin-right: -3rem;
+
 }
 .footer {
   margin-top: -17.8rem;
@@ -148,6 +152,7 @@ body {
   position: relative;
 }
 .card {
+  transform: translate(0%, 15%);
   margin-top: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
