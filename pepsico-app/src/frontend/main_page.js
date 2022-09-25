@@ -23,6 +23,7 @@ export function MainPage() {
     console.log(userBoard);
     await setBoard(userBoard);
     await setBoardVals(userBoard.boardValues);
+    return a;
   }
 
   async function testRandoms(nums) {

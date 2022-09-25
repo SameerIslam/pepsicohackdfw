@@ -28,7 +28,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav ul {
@@ -107,6 +107,15 @@ body {
   outline-color: #ffc857;
   font-family: "Schoolbell", cursive;
 }
+#error {
+  margin: auto;
+  display: block;
+  align-content: center;
+  width: fit-content;
+  height: fit-content;
+  color: #db3934;
+  font-family: "Schoolbell", cursive;
+}
 #textButton {
   margin: auto;
   margin-top: 0.5rem;
@@ -144,4 +153,10 @@ body {
   transition: 0.3s;
   justify-content: left;
   font-family: "Schoolbell", cursive;
+  align-items: left;
+  padding: 30px 40px;
+  border-radius: 20px; /* 5px rounded corners */
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
