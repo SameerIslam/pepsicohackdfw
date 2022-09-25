@@ -109,3 +109,6 @@ body {
 .chestah {
   justify-content: right;
 }
+.footer {
+  position: sticky;
+}
