@@ -66,7 +66,7 @@ export function MainPage() {
         )}
 
         <div className="chestah">
-          <img src={Chester} alt="Chester" width="500 px" />
+          <img src={Chester} alt="Chester" width="600 px" />
         </div>
       </div>
       <div className="input">
