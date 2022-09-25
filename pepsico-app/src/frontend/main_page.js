@@ -40,7 +40,7 @@ export function MainPage() {
 
       <div className="gridSurrounding">
         <div class="card">
-          <p>and act like ion know nobody</p>
+            <p>and act like ion know nobody</p>
         </div>
 
         <Grid arrOfObj={boardVals} />
