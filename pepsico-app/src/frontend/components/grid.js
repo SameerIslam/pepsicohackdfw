@@ -10,10 +10,8 @@ export default function Grid(props) {
   const cells = props.arrOfObj.map((obj) => <Tile obj={obj}></Tile>);
 
   return (
-    <div className="gridBorder">
-      <div className="container1" style={z}>
-        {cells}
-      </div>
+    <div className="container1" style={z}>
+      {cells}
     </div>
   );
 }
