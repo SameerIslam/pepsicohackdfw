@@ -114,6 +114,7 @@ body {
   width: fit-content;
   height: fit-content;
   color: #db3934;
+  font-family: "Schoolbell", cursive;
 }
 #textButton {
   margin: auto;
