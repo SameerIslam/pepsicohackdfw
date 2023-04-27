@@ -1,3 +1,5 @@
+![Chester's Chest Quest Screenshot](chesterscreencap.png)
+
 <h1>Inspiration</h1> <br>
 Our inspiration was based on a few different ideas, the main being off of a YouTube video called "Curiosity: The App That Fooled Everyone". Another concept that we based our idea upon was local loyalty deals such as ‘after you buy 10 products, you get one for free. That is the main inspiration behind our entire concept. Instead of fully copying the format those examples use, we based our format on a quest, an adventure of sorts, allowing consumers to engage with the advertisement campaign on a more personal level as it provides an integration of a mini-game that uncovers savings.
 
